@@ -1,1 +1,293 @@
-sssss
+{
+  "content": {
+    "hero": {
+      "title": {
+        "pc": "a",
+        "mobile": "b"
+      },
+      "description": {
+        "pc": "c",
+        "mobile": "d"
+      }
+    },
+    "aap": {
+      "title": {
+        "pc": "e",
+        "mobile": "f"
+      },
+      "description": {
+        "pc": "g",
+        "mobile": "g"
+      }
+    },
+    "story": {
+      "title": {
+        "pc": "",
+        "mobile": ""
+      },
+      "cards": {
+        "imagination": {
+          "title": "",
+          "description": ""
+        },
+        "character": {
+          "title": "",
+          "description": ""
+        },
+        "professional": {
+          "title": "",
+          "description": ""
+        }
+      }
+    },
+    "miracleHand": {
+      "contents": {
+        "title": "",
+        "description": ""
+      },
+      "adventure": {
+        "title": "",
+        "description": ""
+      },
+      "friends": {
+        "title": "",
+        "description": ""
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "title": {
+        "pc": "",
+        "mobile": ""
+      }
+    },
+    "caseStudy": {
+      "hospital": {
+        "title": {
+          "pc": "",
+          "mobile": ""
+        },
+        "description": {
+          "pc": "",
+          "mobile": ""
+        }
+      },
+      "fist": {
+        "title": {
+          "pc": "",
+          "mobile": ""
+        },
+        "description": {
+          "pc": "",
+          "mobile": ""
+        }
+      },
+      "wrist": {
+        "title": {
+          "pc": "",
+          "mobile": ""
+        },
+        "description": {
+          "pc": "",
+          "mobile": ""
+        }
+      }
+    },
+    "review": {
+      "cards": {
+        "review1": {
+          "content": "",
+          "author": "",
+          "info": ""
+        },
+        "review2": {
+          "content": "",
+          "author": "",
+          "info": ""
+        },
+        "review3": {
+          "content": "",
+          "author": "",
+          "info": ""
+        },
+        "review4": {
+          "content": "",
+          "author": "",
+          "info": ""
+        },
+        "review5": {
+          "content": "",
+          "author": "",
+          "info": ""
+        },
+        "review6": {
+          "content": "",
+          "author": "",
+          "info": ""
+        },
+        "review7": {
+          "content": "",
+          "author": "",
+          "info": ""
+        },
+        "review8": {
+          "content": "",
+          "author": "",
+          "info": ""
+        },
+        "review9": {
+          "content": "",
+          "author": "",
+          "info": ""
+        },
+        "review10": {
+          "content": "",
+          "author": "",
+          "info": ""
+        },
+        "review11": {
+          "content": "",
+          "author": "",
+          "info": ""
+        },
+        "review12": {
+          "content": "",
+          "author": "",
+          "info": ""
+        },
+        "review13": {
+          "content": "",
+          "author": "",
+          "info": ""
+        }
+      }
+    },
+    "features": {
+      "title": {
+        "pc": "",
+        "mobile": ""
+      },
+      "cards": {
+        "cost": {
+          "title": "",
+          "description": {
+            "pc": "",
+            "mobile": ""
+          }
+        },
+        "movement": {
+          "title": "",
+          "description": {
+            "pc": "",
+            "mobile": ""
+          }
+        },
+        "rehabilitation": {
+          "title": "",
+          "description": {
+            "pc": "",
+            "mobile": ""
+          }
+        },
+        "time": {
+          "title": "",
+          "description": {
+            "pc": "",
+            "mobile": ""
+          }
+        }
+      }
+    },
+    "cta": {
+      "title": {
+        "pc": "",
+        "mobile": ""
+      }
+    },
+    "comparison": {
+      "products": {
+        "gemgem": "",
+        "productA": "",
+        "productB": ""
+      },
+      "items": {
+        "noEquipment": "",
+        "gameFormat": "",
+        "personalized": ""
+      }
+    }
+  },
+  "gemgem400": {
+    "playOrder": {
+      "step1": {
+        "title": "",
+        "description": {
+          "pc": "",
+          "mobile": ""
+        }
+      },
+      "step2": {
+        "title": "",
+        "description": {
+          "pc": "",
+          "mobile": ""
+        }
+      },
+      "step3": {
+        "title": "",
+        "description": {
+          "pc": "",
+          "mobile": ""
+        }
+      },
+      "step4": {
+        "title": "",
+        "description": {
+          "pc": "",
+          "mobile": ""
+        }
+      }
+    },
+    "features": {
+      "description": {
+        "pc": "",
+        "mobile": ""
+      },
+      "tabs": {
+        "tab1": {
+          "titleKey": "",
+          "descriptionKey": "",
+          "image": ""
+        },
+        "tab2": {
+          "titleKey": "",
+          "descriptionKey": "",
+          "image": ""
+        },
+        "tab3": {
+          "titleKey": "",
+          "descriptionKey": "",
+          "image": ""
+        },
+        "tab4": {
+          "titleKey": "",
+          "descriptionKey": "",
+          "image": ""
+        }
+      }
+    },
+    "cta": {
+      "title": {
+        "pc": "",
+        "mobile": ""
+      }
+    },
+    "quote": {
+      "title": {
+        "pc": "",
+        "mobile": ""
+      }
+    }
+  }
+}
