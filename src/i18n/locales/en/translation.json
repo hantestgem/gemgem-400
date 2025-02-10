@@ -419,10 +419,41 @@
           "mobile": "GemGem400 works with various experts."
         },
         "testimonials": {
-          "content": "Currently used in the Asan Medical Center Children's Ward, \nit is an effective and reliable rehabilitation therapy game.",
-          "name": "NHIS Ilsan Hospital",
-          "position": "Professor BANG, MYUNG HWAN",
-          "image": "/images/bang.png"
+          "content": "An innovative rehabilitation game that combines therapy and fun, helping children through voluntary movement.",
+          "name": "Yeoju University, OT Dept",
+          "position": "Professor Jaewon Oh",
+          "image": "/images/oh.png"
+        }
+      },
+      "sponsors": {
+        "title": "Partners with GemGem400",
+        "companies": {
+          "name": "기업24",
+          "image": "/images/sponsors/Frame 39983.png"
+        }
+      },
+      "center": {
+        "title": "Visit the GemGem Development Center, affiliated with GemGem400!",
+        "description": "Visit our center to get personlized movement solutions and explore various rehabilitation experiences",
+        "button": "Center introduction",
+        "image": "/images/center/center-image.png"
+      },
+      "contact": {
+        "title": "Contact us now",
+        "form": {
+          "firstName": "First Name",
+          "lastName": "Last(Family) Name",
+          "email": "Email",
+          "country": "Nationality",
+          "company": "Company",
+          "position": "-N/A-",
+          "positions": {
+            "brand": "Brand Partnership",
+            "hospital": "Hospital and clinic staff",
+            "other": "etc"
+          },
+          "message": "Message",
+          "submit": "Send"
         }
       }
     }
