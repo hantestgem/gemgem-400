@@ -419,10 +419,41 @@
           "mobile": "잼잼400은 다양한\n 전문가들과 함께합니다."
         },
         "testimonials": {
-          "content": "현재 아산병원 어린이\n 병동에서도 사용되며, 효과적이고 신뢰할 수 있는 재활 치료 게임입니다",
-          "name": "일산병원 재활의학과",
-          "position": "방명환 교수님",
-          "image": "/images/bang.png"
+          "content": "치료와 재미를 결합한 혁신적 재활 운동 게임으로, 자발적인 움직임을 통해 아동에게 큰 도움이 됩니다.",
+          "name": "여주대학교 물리치료학과",
+          "position": "오재원 교수님",
+          "image": "/images/oh.png"
+        }
+      },
+      "sponsors": {
+        "title": "잼잼400과 함께하는 곳",
+        "companies": {
+          "name": "기업24",
+          "image": "/images/sponsors/Frame 39983.png"
+        }
+      },
+      "center": {
+        "title": "잼잼400 부설\n 잼잼발달센터에도 놀러오세요!",
+        "description": "센터에 직접 방문하여 맞춤 동작 솔루션을 받아보고\n 다양한 재활 체험을 경험해보세요",
+        "button": "센터 소개 바로가기",
+        "image": "/images/center/center-image.png"
+      },
+      "contact": {
+        "title": "지금 바로 문의하기",
+        "form": {
+          "firstName": "이름",
+          "lastName": "성",
+          "email": "이메일",
+          "country": "국가",
+          "company": "회사",
+          "position": "--없음--",
+          "positions": {
+            "brand": "브랜드 파트너십",
+            "hospital": "병원 및 센터 관계자",
+            "other": "기타"
+          },
+          "message": "메시지",
+          "submit": "전송하기"
         }
       }
     }
