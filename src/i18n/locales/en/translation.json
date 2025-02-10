@@ -2,293 +2,363 @@
   "content": {
     "hero": {
       "title": {
-        "pc": "a",
-        "mobile": "b"
+        "pc": "\"My child is usually distracted, \n it's amazing to see them stay focused and move for 10 minutes!\"",
+        "mobile": "\"My child is usually distracted, \n it's amazing to see them stay focused and move for 10 minutes!\""
       },
       "description": {
-        "pc": "c",
-        "mobile": "d"
+        "pc": "GemGem400 - where children independently engage and move on their own without being told!",
+        "mobile": "GemGem400 - where children independently engage and move on their own without being told!"
       }
     },
     "aap": {
       "title": {
-        "pc": "e",
-        "mobile": "f"
+        "pc": "Complies with the American Academy of Pediatrics' \n recommended digital device usage time",
+        "mobile": "Complies with the American Academy of Pediatrics' \n recommended digital device usage time"
       },
       "description": {
-        "pc": "g",
-        "mobile": "a"
+        "pc": "A Healthy 15-minute gaming session within AAP's healthy screen time guidelines.(No more than 60 minutes)",
+        "mobile": "A Healthy 15-minute gaming session within AAP's healthy screen time guidelines.(No more than 60 minutes)"
       },
-      "button": "b"
+      "button": "Learn More"
     },
     "story": {
       "title": {
-        "pc": "c",
-        "mobile": "d"
+        "pc": "Children can learn and grow,\n experiencing the joy of development!",
+        "mobile": "Children can learn and grow,\n experiencing the joy of development!"
       },
       "cards": {
         "imagination": {
-          "title": "e",
-          "description": "f"
+          "title": "Stories that nurture imagination",
+          "description": "Exciting stories that spark children's imagination"
         },
         "character": {
-          "title": "g",
-          "description": "a"
+          "title": "Stories with heartwarming lessons",
+          "description": "Learn social skills and consideration naturally through stories"
         },
         "professional": {
-          "title": "b",
-          "description": "c"
+          "title": "Stories created together with professional writers",
+          "description": "Stories co-created by award-winning children's authors and million-view novelists"
         }
       }
     },
     "miracleHand": {
-      "title": "d",
+      "title": "\"Children beg to do it\"",
       "contents": {
-        "title": "e",
-        "description": "f"
+        "title": "• Various Monsters",
+        "description": "Defeat the monsters you meet during adventures \n with the power of your Miracle Hand!"
       },
       "adventure": {
-        "title": "g",
-        "description": "g"
+        "title": "• Fun adventures",
+        "description": "Go on exciting adventures \n discovering new things with friends!"
       },
       "friends": {
-        "title": "",
-        "description": ""
+        "title": "• Helping Friends",
+        "description": "Solve friends' various problems \n and rescue them when they're in danger!"
       }
     }
   },
   "home": {
     "hero": {
       "title": {
-        "pc": "",
-        "mobile": ""
-      }
+        "pc": "\"Hands that were never used before, \n now my child uses them so much willingly!\"",
+        "mobile": "\"Hands that were never used before, \n now my child uses them so much willingly!\""
+      },
+      "button": "Start Training now!"
     },
     "caseStudy": {
       "hospital": {
         "title": {
-          "pc": "",
-          "mobile": ""
+          "pc": "The solution used at Asan Medical Center, \n now easy and convenient to start at home",
+          "mobile": "The solution used at Asan Medical Center, \n now easy and convenient to start at home"
         },
         "description": {
-          "pc": "",
-          "mobile": ""
+          "pc": "GemGem400, used in the Children's Ward at Asan Medical Center; it's actively used in their pediatric rehabilitation unit. Start your therapy easily and conveniently at home.",
+          "mobile": "GemGem400, used in the Children's Ward at Asan Medical Center; it's actively used in their pediatric rehabilitation unit. Start your therapy easily and conveniently at home."
         }
       },
       "fist": {
         "title": {
-          "pc": "",
-          "mobile": ""
+          "pc": "A child who struggled to make a fist, \nimproved after just 5 sessions, 20 minutes a day",
+          "mobile": "A child who struggled to make a fist, \nimproved after just 5 sessions, 20 minutes a day"
         },
         "description": {
-          "pc": "",
-          "mobile": ""
+          "pc": "\"My child's numb pinky worried me, but now I'm overjoyed!\"\n Repeating 400+ movements during gameplay restored nerve connection, and fist-clenching became possible in 5 sessions.",
+          "mobile": "\"My child's numb pinky worried me, but now I'm overjoyed!\"\n Repeating 400+ movements during gameplay restored nerve connection, and fist-clenching became possible in 5 sessions."
         }
       },
       "wrist": {
         "title": {
-          "pc": "",
-          "mobile": ""
+          "pc": "A child who struggled to lift their wrist due to paralysis, \n improved wrist mobility after just one session",
+          "mobile": "A child who struggled to lift their wrist due to paralysis, \n improved wrist mobility after just one session"
         },
         "description": {
-          "pc": "",
-          "mobile": ""
+          "pc": "The game dramatically increases wrist movement practice. By enabling self-guided proper movements, wrist lifting improved after just one session.",
+          "mobile": "The game dramatically increases wrist movement practice. By enabling self-guided proper movements, wrist lifting improved after just one session."
         }
       }
     },
     "review": {
+      "title": "Check out the reviews from parents \n who experienced real changes",
       "cards": {
         "review1": {
-          "content": "",
-          "author": "",
-          "info": ""
+          "content": "I was worried about when my child's numbness in their left pinky would improve, but I'm overjoyed to see immediate results with GemGem400!",
+          "author": "Kwon Oh-seong",
+          "info": "Played GemGem400 for 2 months"
         },
         "review2": {
-          "content": "",
-          "author": "",
-          "info": ""
+          "content": "The long-lasting numbness was instantly relieved - the therapist and I shouted 'Amazing!' Busy with therapy visits? Still, I highly recommend this!",
+          "author": "Jinhee Lim",
+          "info": "Played GemGem400 for 6 months"
         },
         "review3": {
-          "content": "",
-          "author": "",
-          "info": ""
+          "content": "After 2 months of GemGem400, my child's arms are more flexible. Movements that were impossible before are now possible!",
+          "author": "Eunseo Park",
+          "info": "Played GemGem400 for 2 months"
         },
         "review4": {
-          "content": "",
-          "author": "",
-          "info": ""
+          "content": "While using GemGem400, my child's siblings join in because it looks fun - it's become a joyful family activity!",
+          "author": "Seonyoung Park",
+          "info": "Played GemGem400 for a month"
         },
         "review5": {
-          "content": "",
-          "author": "",
-          "info": ""
+          "content": "I love that the story keeps them engaged, and they can exercise their muscles anywhere - at home or traveling - without visiting the therapy center.",
+          "author": "Kim Ji-an",
+          "info": "Played GemGem400 for 2 months"
         },
         "review6": {
-          "content": "",
-          "author": "",
-          "info": ""
+          "content": "I used to help stretch my child's arms; after playing the game a few times, I could feel them loosening up right away.",
+          "author": "Heeyoung Kim",
+          "info": "Played GemGem400 for 2 months"
         },
         "review7": {
-          "content": "",
-          "author": "",
-          "info": ""
+          "content": "At first, my child struggled with painful arm rotations, but thanks to GemGem400, I'm so happy to see their movements becoming smoother day by day!",
+          "author": "Mirae Jeong",
+          "info": "Played GemGem400 for 2 months"
         },
         "review8": {
-          "content": "",
-          "author": "",
-          "info": ""
+          "content": "The therapist customized the game level based on my child's development stage - these detailed adjustments were especially helpful.",
+          "author": "Yejin Lee",
+          "info": "Played GemGem400 for a month"
         },
         "review9": {
-          "content": "",
-          "author": "",
-          "info": ""
+          "content": "With three kids to care for, I felt guilty about not helping with rehab at home after therapy. GemGem400 solved this problem!",
+          "author": "Nayoung Kwon",
+          "info": "Played GemGem400 for 3 months"
         },
         "review10": {
-          "content": "",
-          "author": "",
-          "info": ""
+          "content": "The app was so easy to use - just download and start! My child was so interested, they volunteered to try it on their own.",
+          "author": "Minho Choi",
+          "info": "Played GemGem400 for 2 months"
         },
         "review11": {
-          "content": "",
-          "author": "",
-          "info": ""
+          "content": "While playing GemGem400, my child especially loves achieving goals and earning items in the game.",
+          "author": "Jihye Park",
+          "info": "Played GemGem400 for 2 months"
         },
         "review12": {
-          "content": "",
-          "author": "",
-          "info": ""
+          "content": "My child rarely used their hands, but with GemGem400, they're moving them consistently every day - I'm so happy about this!",
+          "author": "Sansuhyeon",
+          "info": "Played GemGem400 for 3 months"
         },
         "review13": {
-          "content": "",
-          "author": "",
-          "info": ""
+          "content": "My child rushes through bath and Korean lessons just to play GemGem400 - they eagerly wait for this time every night. They enjoy it so much!",
+          "author": "Heeju Kim",
+          "info": "Played GemGem400 for 4 months"
         }
       }
     },
     "features": {
       "title": {
-        "pc": "",
-        "mobile": ""
+        "pc": "Discover the amazing benefits of GemGem400!",
+        "mobile": "Discover the amazing benefits of GemGem400!"
       },
       "cards": {
         "cost": {
-          "title": "",
+          "title": "On Their Own",
           "description": {
-            "pc": "",
-            "mobile": ""
+            "pc": "No help needed from mom,\n Your child plays \n All by themselves",
+            "mobile": "No help needed from mom,\n Your child plays \n All by themselves"
           }
         },
         "movement": {
-          "title": "",
+          "title": "Anytime, Anywhere",
           "description": {
-            "pc": "",
-            "mobile": ""
+            "pc": "Play anywhere, \n Anytime you want, \n No limits on location",
+            "mobile": "Play anywhere, \n Anytime you want, \n No limits on location"
           }
         },
         "rehabilitation": {
-          "title": "",
+          "title": "Quick Recovery Result",
           "description": {
-            "pc": "",
-            "mobile": ""
+            "pc": "Customized actions and movements lead to \n faster rehabilitation effects \n than traditional centers",
+            "mobile": "Customized actions and movements lead to \n faster rehabilitation effects \n than traditional centers"
           }
         },
         "time": {
-          "title": "",
+          "title": "Reduced rehabilitation time",
           "description": {
-            "pc": "",
-            "mobile": ""
+            "pc": "Play for just 10 minutes a day! \n Reduced therapy time \n compared to conventional rehab",
+            "mobile": "Play for just 10 minutes a day! \n Reduced therapy time \n compared to conventional rehab"
           }
         }
       }
     },
     "cta": {
       "title": {
-        "pc": "",
-        "mobile": ""
-      }
+        "pc": "\"Hands that were never used before, \n now my child uses them so much willingly!\"",
+        "mobile": "\"Hands that were never used before, \n now my child uses them so much willingly!\""
+      },
+      "buttonText": "Start Training now!"
     },
     "comparison": {
+      "title": "What makes GemGem400 different?",
       "products": {
-        "gemgem": "",
-        "productA": "",
-        "productB": ""
+        "gemgem": "GemGem400",
+        "productA": "Competitor Product A",
+        "productB": "Competitor Product B"
       },
       "items": {
-        "noEquipment": "",
-        "gameFormat": "",
-        "personalized": ""
+        "noEquipment": "No equipment",
+        "gameFormat": "Game Format",
+        "personalized": "Personalized"
       }
     }
   },
   "gemgem400": {
     "playOrder": {
+      "title": "How to assign 1:1 personalized movements",
+      "description": "Get tailored rehab with a customized action plan for your child.",
       "step1": {
-        "title": "",
+        "title": "Send a Video",
         "description": {
-          "pc": "",
-          "mobile": ""
+          "pc": "Send hand movement videos as guided.",
+          "mobile": "Send hand movement videos as guided."
         }
       },
       "step2": {
-        "title": "",
+        "title": "Get an Evaluation",
         "description": {
-          "pc": "",
-          "mobile": ""
+          "pc": "A professional occupational therapist analyzes and evaluates your child's hand condition through video.",
+          "mobile": "A professional occupational therapist analyzes and evaluates your child's hand condition through video."
         }
       },
       "step3": {
-        "title": "",
+        "title": "Movement Assignment",
         "description": {
-          "pc": "",
-          "mobile": ""
+          "pc": "Get customized movements based on your assessment results.",
+          "mobile": "Get customized movements based on your assessment results."
         }
       },
       "step4": {
-        "title": "",
+        "title": "Play",
         "description": {
-          "pc": "",
-          "mobile": ""
+          "pc": "Children enjoy playing with personalized hand movements tailored just for them",
+          "mobile": "Children enjoy playing with personalized hand movements tailored just for them"
         }
+      }
+    },
+    "features": {
+      "title": "Various representative stimuli of GemGem400 \n that promote neuroplasticity",
+      "description": {
+        "pc": "Explore the representative stimuli of GemGem400 that promotes neuroplasticity by forming new neural pathways and recovery",
+        "mobile": "Explore the representative stimuli of GemGem400 that promotes neuroplasticity by forming new neural pathways and recovery"
+      },
+      "tabs": {
+        "tab1": {
+          "titleKey": "Repetitive exercise",
+          "descriptionKey": "Over 400 reps to boost hand-brain coordination and hand movements",
+          "image": "/images/feature_tabs_1.gif"
+        },
+        "tab2": {
+          "titleKey": "Hand recognition enhancement",
+          "descriptionKey": "Camera tracks hand movements, providing constant audio and visual feedback.",
+          "image": "/images/feature_tabs_2.gif"
+        },
+        "tab3": {
+          "titleKey": "Positive rewards for hand use",
+          "descriptionKey": "Various rewards for achieving goals with hand use",
+          "image": "/images/feature_tabs_3.gif"
+        },
+        "tab4": {
+          "titleKey": "Rich visual and auditory stimulation",
+          "descriptionKey": "Follow characters to boost visual focus and experience auditory stimulation through full voice dubbing",
+          "image": "/images/feature_tabs_4.gif"
+        }
+      }
+    },
+    "cta": {
+      "title": {
+        "pc": "\"Hands that were never used before, \n now my child uses them so much willingly!\"",
+        "mobile": "\"Hands that were never used before, \n now my child uses them so much willingly!\""
+      },
+      "buttonText": "Start Training now!"
+    },
+    "quote": {
+      "title": {
+        "pc": "\"Every child deserves a unique solution\"",
+        "mobile": "\"Every child deserves a unique solution\""
+      },
+      "content": "Even with similar difficulties, children may have different causes. \n Delayed fine motor skills reduce hand use, \n so personalized movements tailored to each child’s needs maximize rehabilitation.",
+      "author": "Katie Lee",
+      "position": "Head of Therapy, GemGem400"
+    },
+    "comparison": {
+      "title": {
+        "pc": "Head of Therapy, GemGem400",
+        "mobile": ""
+      },
+      "description": {
+        "pc": "",
+        "mobile": ""
+      },
+      "leftImage": {
+        "alt": "",
+        "description": "",
+        "treatment": ""
+      },
+      "rightImage": {
+        "alt": "",
+        "description": "",
+        "treatment": ""
+      },
+      "mobile": {
+        "title": "",
+        "leftDescription": "",
+        "leftTreatmen": "",
+        "rightDescription": "",
+        "rightTreatmen": ""
+      }
+    }
+  },
+  "forParents": {
+    "cta": {
+      "title": {
+        "pc": "",
+        "mobile": ""
       }
     },
     "features": {
       "description": {
         "pc": "",
         "mobile": ""
+      }
+    },
+    "tabs": {
+      "tab1": {
+        "title": "",
+        "description": ""
       },
-      "tabs": {
-        "tab1": {
-          "titleKey": "",
-          "descriptionKey": "",
-          "image": ""
-        },
-        "tab2": {
-          "titleKey": "",
-          "descriptionKey": "",
-          "image": ""
-        },
-        "tab3": {
-          "titleKey": "",
-          "descriptionKey": "",
-          "image": ""
-        },
-        "tab4": {
-          "titleKey": "",
-          "descriptionKey": "",
-          "image": ""
-        }
-      }
-    },
-    "cta": {
-      "title": {
-        "pc": "",
-        "mobile": ""
-      }
-    },
-    "quote": {
-      "title": {
-        "pc": "",
-        "mobile": ""
+      "tab2": {
+        "title": "",
+        "description": ""
+      },
+      "tab3": {
+        "title": "",
+        "description": ""
+      },
+      "tab4": {
+        "title": "",
+        "description": ""
       }
     }
   }
