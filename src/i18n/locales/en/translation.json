@@ -457,5 +457,15 @@
         }
       }
     }
+  },
+  "footer": {
+    "title": {
+      "pc": "\"Hands that were never used before,\nnow my child uses them so much willingly!\"",
+      "mobile": "\"Hands that were never used before,\nnow my child uses them so much willingly!\""
+    },
+    "subtitle": {
+      "pc": "With GemGem400, your child moves on their own without being told.\nThey'll use hands they usually avoid!",
+      "mobile": "With GemGem400, your child moves on their own without being told.\nThey'll use hands they usually avoid!"
+    }
   }
 }
