@@ -466,6 +466,10 @@
     "subtitle": {
       "pc": "With GemGem400, your child moves on their own without being told.\nThey'll use hands they usually avoid!",
       "mobile": "With GemGem400, your child moves on their own without being told.\nThey'll use hands they usually avoid!"
+    },
+    "nav": {
+      "start": "Get Started",
+      "download": "Download"
     }
   }
 }
