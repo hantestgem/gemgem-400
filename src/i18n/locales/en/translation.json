@@ -299,7 +299,132 @@
         "mobile": "\"Every child deserves a unique solution\""
       },
       "content": "Even with similar difficulties, children may have different causes. \n Delayed fine motor skills reduce hand use, \n so personalized movements tailored to each child’s needs maximize rehabilitation.",
-      "author": "Katie Lee"
+      "author": "Katie Lee",
+      "position": "Head of Therapy, GemGem400"
+    },
+    "comparison": {
+      "title": {
+        "pc": "Custom Solution Examples",
+        "mobile": "Custom Solution Examples"
+      },
+      "description": {
+        "pc": "Though they share the same difficulty in grasping objects, each requires a different treatment approach.",
+        "mobile": "Though they share the same difficulty in grasping objects, each requires a different treatment approach."
+      },
+      "leftImage": {
+        "alt": "Left comparison image",
+        "description": "\"The child needs to practice bending their fingers \n and moving their thumb to touch the fingertips\"",
+        "treatment": "Thumb extension / Palm joint flexion / Fist opening"
+      },
+      "rightImage": {
+        "alt": "Right comparison image",
+        "description": "\"The child practices touching their fingertips by straightening their curved fingers \n and bending the middle joints of their palms.\"",
+        "treatment": "Thumb extension / Palm joint flexion / Fist opening"
+      },
+      "mobile": {
+        "title": "Though they share the same difficulty in grasping objects, each requires a different treatment approach.",
+        "leftDescription": "\"The child needs to practice bending their fingers \n and moving their thumb to touch the fingertips\"",
+        "leftTreatmen": "Thumb flexion / Palm joint extension / Fist clenching",
+        "rightDescription": "\"The child practices touching their fingertips by straightening their curved fingers \n and bending the middle joints of their palms.\"",
+        "rightTreatmen": "Thumb extension / Palm joint flexion / Fist opening"
+      }
+    }
+  },
+  "forParents": {
+    "cta": {
+      "title": {
+        "pc": "\"Hands that were never used before, \n now my child uses them so much willingly!\"",
+        "mobile": "\"Hands that were never used before, \n now my child uses them so much willingly!\""
+      },
+      "buttonText": "Start Training now!"
+    },
+    "features": {
+      "title": "Easily monitor your child's exercise activity",
+      "description": {
+        "pc": "See your child's rehabilitation exercise progress at a glance and feel the changes",
+        "mobile": "See your child's rehabilitation exercise progress at a glance and feel the changes"
+      }
+    },
+    "tabs": {
+      "tab1": {
+        "title": "Today's Activity",
+        "description": "Check today's activity levels across three different grades"
+      },
+      "tab2": {
+        "title": "Growth Progress",
+        "description": "Track how much movement has improved so far"
+      },
+      "tab3": {
+        "title": "Movement Speed",
+        "description": "Monitor changes in movement speed"
+      },
+      "tab4": {
+        "title": "Grade Distribution",
+        "description": "View the number of movements performed at each grade level"
+      }
+    },
+    "video": {
+      "title": "Visit our YouTube channel for informative content!",
+      "description": "Get answers to your questions through interviews with various experts and rehabilitation information",
+      "button": "Go to YouTube channel"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": {
+        "pc": "We hope every child has the chance \n to demonstrate their abilities",
+        "mobile": "We hope every child has the chance \n to demonstrate their abilities"
+      },
+      "description": "We bring positive change to children’s lives, helping them shine. Together, we dream, grow, and move toward a brighter future.",
+      "button": "Contact us now"
+    },
+    "mission": {
+      "title": {
+        "pc": "We will ensure that every child can fulfill their role as a member of society.",
+        "mobile": "We will ensure that every child can fulfill their role as a member of society."
+      },
+      "description": {
+        "pc": "We aim to bring more joy and happiness to children in need by helping them in fun and creative ways.",
+        "mobile": "We aim to bring more joy and happiness to children in need by helping them in fun and creative ways."
+      }
+    },
+    "cta": {
+      "title": {
+        "pc": "Have questions or collaboration ideas? \n GemGem400 is always open to you.",
+        "mobile": "Have questions or collaboration ideas? \n GemGem400 is always open to you."
+      },
+      "buttonText": "Contact us now"
+    },
+    "team": {
+      "title": {
+        "pc": "A fine motor development game, GemGem400,\n created by a rehab mom and a occupational therapist",
+        "mobile": "A fine motor development game, GemGem400,\n created by a game developer mom and a 17-year occupational therapist"
+      },
+      "ceo": {
+        "position": "CEO, Jeklin Kim",
+        "title": "I made this game after nagging \n my child to move their hands at home",
+        "description": "My child struggled with periventricular leukomalacia, and we needed a way to continue therapy at home. \n Existing methods were hard to follow, so I created GemGem400. \n Now my child enjoys 400+ exercises daily, and the therapy results have improved remarkably."
+      },
+      "director": {
+        "position": "Katie Lee, Head of Therapy",
+        "title": {
+          "pc": "Hand usage frequency is key to recovery",
+          "mobile": "Hand usage frequency is key to recovery"
+        },
+        "description": "With 17 years as an occupational therapist, I found that children with rapid hand function improvement \nhad higher 'hand recognition' and 'usage frequency.' \nTo aid recovery, neural networks must be stimulated through repetition. \nI strive to develop solutions for enjoyable"
+      },
+      "experts": {
+        "title": {
+          "pc": "GemGem400 works with various experts.",
+          "mobile": "GemGem400 works with various experts."
+        },
+        "testimonials": {
+          "content": "Currently used in the Asan Medical Center Children's Ward, \nit is an effective and reliable rehabilitation therapy game.",
+          "name": "NHIS Ilsan Hospital",
+          "position": "Professor BANG, MYUNG HWAN",
+          "image": "/images/bang.png"
+        }
+      }
     }
   }
 }
