@@ -470,6 +470,10 @@
     "nav": {
       "start": "시작하기",
       "download": "다운로드 받으러 가기"
+    },
+    "common": {
+      "check": "체크",
+      "cross": "엑스"
     }
   }
 }
