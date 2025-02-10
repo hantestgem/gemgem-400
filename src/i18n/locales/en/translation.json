@@ -299,74 +299,7 @@
         "mobile": "\"Every child deserves a unique solution\""
       },
       "content": "Even with similar difficulties, children may have different causes. \n Delayed fine motor skills reduce hand use, \n so personalized movements tailored to each child’s needs maximize rehabilitation.",
-      "author": "Katie Lee",
-      "position": "Head of Therapy, GemGem400"
-    },
-    "comparison": {
-      "title": {
-        "pc": "Custom Solution Examples",
-        "mobile": "Custom Solution Examples"
-      },
-      "description": {
-        "pc": "Though they share the same difficulty in grasping objects, each requires a different treatment approach.",
-        "mobile": "Though they share the same difficulty in grasping objects, each requires a different treatment approach."
-      },
-      "leftImage": {
-        "alt": "Left comparison image",
-        "description": "\"The child needs to practice bending their fingers \n and moving their thumb to touch the fingertips\"",
-        "treatment": "Thumb extension / Palm joint flexion / Fist opening"
-      },
-      "rightImage": {
-        "alt": "Right comparison image",
-        "description": "\"The child practices touching their fingertips by straightening their curved fingers \n and bending the middle joints of their palms.\"",
-        "treatment": "Thumb extension / Palm joint flexion / Fist opening"
-      },
-      "mobile": {
-        "title": "Though they share the same difficulty in grasping objects, each requires a different treatment approach.",
-        "leftDescription": "\"The child needs to practice bending their fingers \n and moving their thumb to touch the fingertips\"",
-        "leftTreatmen": "Thumb flexion / Palm joint extension / Fist clenching",
-        "rightDescription": "\"The child practices touching their fingertips by straightening their curved fingers \n and bending the middle joints of their palms.\"",
-        "rightTreatmen": "Thumb extension / Palm joint flexion / Fist opening"
-      }
-    }
-  },
-  "forParents": {
-    "cta": {
-      "title": {
-        "pc": "\"Hands that were never used before, \n now my child uses them so much willingly!\"",
-        "mobile": "\"Hands that were never used before, \n now my child uses them so much willingly!\""
-      },
-      "buttonText": "Start Training now!"
-    },
-    "features": {
-      "title": "Easily monitor your child's exercise activity",
-      "description": {
-        "pc": "See your child's rehabilitation exercise progress at a glance and feel the changes",
-        "mobile": "See your child's rehabilitation exercise progress at a glance and feel the changes"
-      }
-    },
-    "tabs": {
-      "tab1": {
-        "title": "Today's Activity",
-        "description": "Check today's activity levels across three different grades"
-      },
-      "tab2": {
-        "title": "Growth Progress",
-        "description": "Track how much movement has improved so far"
-      },
-      "tab3": {
-        "title": "Movement Speed",
-        "description": "Monitor changes in movement speed"
-      },
-      "tab4": {
-        "title": "Grade Distribution",
-        "description": "View the number of movements performed at each grade level"
-      }
-    },
-    "video": {
-      "title": "Visit our YouTube channel for informative content!",
-      "description": "Get answers to your questions through interviews with various experts and rehabilitation information",
-      "button": "Go to YouTube channel"
+      "author": "Katie Lee"
     }
   }
 }
