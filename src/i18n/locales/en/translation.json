@@ -360,6 +360,62 @@
         "title": "",
         "description": ""
       }
+    },
+    "video": {}
+  },
+  "about": {
+    "hero": {
+      "title": {
+        "pc": "",
+        "mobile": ""
+      }
+    },
+    "mission": {
+      "title": {
+        "pc": "",
+        "mobile": ""
+      },
+      "description": {
+        "pc": "",
+        "mobile": ""
+      }
+    },
+    "cta": {
+      "title": {
+        "pc": "",
+        "mobile": ""
+      }
+    },
+    "team": {
+      "title": {
+        "pc": "",
+        "mobile": ""
+      },
+      "ceo": {
+        "position": "",
+        "title": "",
+        "description": ""
+      },
+      "director": {
+        "position": "",
+        "title": {
+          "pc": "",
+          "mobile": ""
+        },
+        "description": ""
+      },
+      "experts": {
+        "title": {
+          "pc": "",
+          "mobile": ""
+        }
+      },
+      "testimonials": {
+        "content": "",
+        "name": "",
+        "position": "",
+        "image": ""
+      }
     }
   }
 }
