@@ -303,10 +303,7 @@
       "position": "Head of Therapy, GemGem400"
     },
     "comparison": {
-      "title": {
-        "pc": "Custom Solution Examples",
-        "mobile": "Custom Solution Examples"
-      },
+      "title": "Custom Solution Examples",
       "description": {
         "pc": "Though they share the same difficulty in grasping objects, each requires a different treatment approach.",
         "mobile": "Though they share the same difficulty in grasping objects, each requires a different treatment approach."
@@ -324,9 +321,9 @@
       "mobile": {
         "title": "Though they share the same difficulty in grasping objects, each requires a different treatment approach.",
         "leftDescription": "\"The child needs to practice bending their fingers \n and moving their thumb to touch the fingertips\"",
-        "leftTreatmen": "Thumb flexion / Palm joint extension / Fist clenching",
+        "leftTreatment": "Thumb flexion / Palm joint extension / Fist clenching",
         "rightDescription": "\"The child practices touching their fingertips by straightening their curved fingers \n and bending the middle joints of their palms.\"",
-        "rightTreatmen": "Thumb extension / Palm joint flexion / Fist opening"
+        "rightTreatment": "Thumb extension / Palm joint flexion / Fist opening"
       }
     }
   },
@@ -343,24 +340,24 @@
       "description": {
         "pc": "See your child's rehabilitation exercise progress at a glance and feel the changes",
         "mobile": "See your child's rehabilitation exercise progress at a glance and feel the changes"
-      }
-    },
-    "tabs": {
-      "tab1": {
-        "title": "Today's Activity",
-        "description": "Check today's activity levels across three different grades"
       },
-      "tab2": {
-        "title": "Growth Progress",
-        "description": "Track how much movement has improved so far"
-      },
-      "tab3": {
-        "title": "Movement Speed",
-        "description": "Monitor changes in movement speed"
-      },
-      "tab4": {
-        "title": "Grade Distribution",
-        "description": "View the number of movements performed at each grade level"
+      "tabs": {
+        "tab1": {
+          "title": "Today's Activity",
+          "description": "Check today's activity levels across three different grades"
+        },
+        "tab2": {
+          "title": "Growth Progress",
+          "description": "Track how much movement has improved so far"
+        },
+        "tab3": {
+          "title": "Movement Speed",
+          "description": "Monitor changes in movement speed"
+        },
+        "tab4": {
+          "title": "Grade Distribution",
+          "description": "View the number of movements performed at each grade level"
+        }
       }
     },
     "video": {
@@ -412,49 +409,157 @@
           "mobile": "Hand usage frequency is key to recovery"
         },
         "description": "With 17 years as an occupational therapist, I found that children with rapid hand function improvement \nhad higher 'hand recognition' and 'usage frequency.' \nTo aid recovery, neural networks must be stimulated through repetition. \nI strive to develop solutions for enjoyable"
+      }
+    },
+    "experts": {
+      "title": {
+        "pc": "GemGem400 works with various experts.",
+        "mobile": "GemGem400 works with various experts."
       },
-      "experts": {
-        "title": {
-          "pc": "GemGem400 works with various experts.",
-          "mobile": "GemGem400 works with various experts."
+      "testimonials": [
+        {
+          "content": "Children experienced quick results with GemGem400 - this game brings hope to children who need rehabilitation.",
+          "name": "NHIS Ilsan Hospital",
+          "position": "Professor BANG, MYUNG HWAN",
+          "image": "/images/bang.png"
         },
-        "testimonials": {
+        {
+          "content": "Currently used in the Asan Medical Center Children's Ward, \nit is an effective and reliable rehabilitation therapy game.",
+          "name": "Asan Medical Center",
+          "position": "Professor KO EUN JAE",
+          "image": "/images/ko.png"
+        },
+        {
           "content": "An innovative rehabilitation game that combines therapy and fun, helping children through voluntary movement.",
           "name": "Yeoju University, OT Dept",
           "position": "Professor Jaewon Oh",
           "image": "/images/oh.png"
         }
-      },
-      "sponsors": {
-        "title": "Partners with GemGem400",
-        "companies": {
+      ]
+    },
+    "sponsors": {
+      "title": "Partners with GemGem400",
+      "companies": [
+        {
+          "name": "기업1",
+          "image": "/images/sponsors/Frame 39960.png"
+        },
+        {
+          "name": "기업2",
+          "image": "/images/sponsors/Frame 39961.png"
+        },
+        {
+          "name": "기업3",
+          "image": "/images/sponsors/Frame 39962.png"
+        },
+        {
+          "name": "기업4",
+          "image": "/images/sponsors/Frame 39963.png"
+        },
+        {
+          "name": "기업5",
+          "image": "/images/sponsors/Frame 39964.png"
+        },
+        {
+          "name": "기업6",
+          "image": "/images/sponsors/Frame 39965.png"
+        },
+        {
+          "name": "기업7",
+          "image": "/images/sponsors/Frame 39966.png"
+        },
+        {
+          "name": "기업8",
+          "image": "/images/sponsors/Frame 39967.png"
+        },
+        {
+          "name": "기업9",
+          "image": "/images/sponsors/Frame 39968.png"
+        },
+        {
+          "name": "기업10",
+          "image": "/images/sponsors/Frame 39969.png"
+        },
+        {
+          "name": "기업11",
+          "image": "/images/sponsors/Frame 39970.png"
+        },
+        {
+          "name": "기업12",
+          "image": "/images/sponsors/Frame 39971.png"
+        },
+        {
+          "name": "기업13",
+          "image": "/images/sponsors/Frame 39972.png"
+        },
+        {
+          "name": "기업14",
+          "image": "/images/sponsors/Frame 39973.png"
+        },
+        {
+          "name": "기업15",
+          "image": "/images/sponsors/Frame 39974.png"
+        },
+        {
+          "name": "기업16",
+          "image": "/images/sponsors/Frame 39975.png"
+        },
+        {
+          "name": "기업17",
+          "image": "/images/sponsors/Frame 39976.png"
+        },
+        {
+          "name": "기업18",
+          "image": "/images/sponsors/Frame 39977.png"
+        },
+        {
+          "name": "기업19",
+          "image": "/images/sponsors/Frame 39978.png"
+        },
+        {
+          "name": "기업20",
+          "image": "/images/sponsors/Frame 39979.png"
+        },
+        {
+          "name": "기업21",
+          "image": "/images/sponsors/Frame 39980.png"
+        },
+        {
+          "name": "기업22",
+          "image": "/images/sponsors/Frame 39981.png"
+        },
+        {
+          "name": "기업23",
+          "image": "/images/sponsors/Frame 39982.png"
+        },
+        {
           "name": "기업24",
           "image": "/images/sponsors/Frame 39983.png"
         }
-      },
-      "center": {
-        "title": "Visit the GemGem Development Center, affiliated with GemGem400!",
-        "description": "Visit our center to get personlized movement solutions and explore various rehabilitation experiences",
-        "button": "Center introduction",
-        "image": "/images/center/center-image.png"
-      },
-      "contact": {
-        "title": "Contact us now",
-        "form": {
-          "firstName": "First Name",
-          "lastName": "Last(Family) Name",
-          "email": "Email",
-          "country": "Nationality",
-          "company": "Company",
-          "position": "-N/A-",
-          "positions": {
-            "brand": "Brand Partnership",
-            "hospital": "Hospital and clinic staff",
-            "other": "etc"
-          },
-          "message": "Message",
-          "submit": "Send"
-        }
+      ]
+    },
+    "center": {
+      "title": "Visit the GemGem Development Center, affiliated with GemGem400!",
+      "description": "Visit our center to get personlized movement solutions and explore various rehabilitation experiences",
+      "button": "Center introduction",
+      "image": "/images/center/center-image.png"
+    },
+    "contact": {
+      "title": "Contact us now",
+      "form": {
+        "firstName": "First Name",
+        "lastName": "Last(Family) Name",
+        "email": "Email",
+        "country": "Nationality",
+        "company": "Company",
+        "position": "-N/A-",
+        "positions": {
+          "brand": "Brand Partnership",
+          "hospital": "Hospital and clinic staff",
+          "other": "etc"
+        },
+        "message": "Message",
+        "submit": "Send"
       }
     }
   },
@@ -466,14 +571,14 @@
     "subtitle": {
       "pc": "With GemGem400, your child moves on their own without being told.\nThey'll use hands they usually avoid!",
       "mobile": "With GemGem400, your child moves on their own without being told.\nThey'll use hands they usually avoid!"
-    },
-    "nav": {
-      "start": "Get Started",
-      "download": "Download"
-    },
-    "common": {
-      "check": "체크",
-      "cross": "엑스"
     }
+  },
+  "nav": {
+    "start": "Get Started",
+    "download": "Download"
+  },
+  "common": {
+    "check": "체크",
+    "cross": "엑스"
   }
 }
