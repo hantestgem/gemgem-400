@@ -15,13 +15,7 @@ const LANGUAGES = {
     label: 'EN', 
     logo: '/images/gemgem-logo-en.png',
     name: 'English'
-  },
-  // ja: { 
-  //   code: 'ja', 
-  //   label: 'JA', 
-  //   logo: '/images/gemgem-logo-ja.png',
-  //   name: '日本語'
-  // }
+  }
 } as const;
 
 // 네비게이션 메뉴 설정
