@@ -1,8 +1,38 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import gemgemLogoKo from "/images/gemgem-logo-ko.png";
-import gemgemLogoEn from "/images/gemgem-logo.png";
 import { useTranslation } from "react-i18next";
+
+// 언어 설정을 객체로 관리
+const LANGUAGES = {
+  ko: { 
+    code: 'ko', 
+    label: 'KR', 
+    logo: '/images/gemgem-logo-ko.png',
+    name: '한국어'
+  },
+  en: { 
+    code: 'en', 
+    label: 'EN', 
+    logo: '/images/gemgem-logo-en.png',
+    name: 'English'
+  },
+  // ja: { 
+  //   code: 'ja', 
+  //   label: 'JA', 
+  //   logo: '/images/gemgem-logo-ja.png',
+  //   name: '日本語'
+  // }
+} as const;
+
+// 네비게이션 메뉴 설정
+const NAV_ITEMS = [
+  { path: "/", label: "Home" },
+  { path: "/gemgem400", label: "GemGem400" },
+  { path: "/content", label: "Content" },
+  { path: "/for-parents", label: "For parents" },
+  { path: "/about", label: "About" }
+] as const;
+
 const Navbar: React.FC = () => {
   const location = useLocation();
   const navigate = useNavigate();
@@ -10,14 +40,19 @@ const Navbar: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [isIOS, setIsIOS] = useState<boolean | null>(null);
   const { t, i18n } = useTranslation();
-  const logoImage = i18n.language === "ko" ? gemgemLogoKo : gemgemLogoEn;
 
+  // 현재 언어에 따른 로고 이미지 선택
+  const currentLanguage = LANGUAGES[i18n.language as keyof typeof LANGUAGES] || LANGUAGES.ko;
+  const logoImage = currentLanguage.logo;
+
+  // 활성 경로 확인
   const isActive = (path: string) => {
     const currentLang = i18n.language;
     const localizedPath = path === '/' ? `/${currentLang}` : `/${currentLang}${path}`;
     return location.pathname === localizedPath;
   };
 
+  // 경로 이동 처리
   const handleNavigation = (path: string) => {
     const currentLang = i18n.language;
     const localizedPath = path === '/' ? `/${currentLang}` : `/${currentLang}${path}`;
@@ -26,8 +61,8 @@ const Navbar: React.FC = () => {
     window.scrollTo(0, 0);
   };
 
+  // 언어 변경 처리
   const handleLanguageChange = (newLang: string) => {
-    // 현재 URL 경로에서 언어 코드를 새 언어로 교체
     const pathSegments = location.pathname.split('/').filter(Boolean);
     pathSegments[0] = newLang;
     const newPath = `/${pathSegments.join('/')}${location.search}`;
@@ -36,17 +71,54 @@ const Navbar: React.FC = () => {
     setIsLangDropdownOpen(false);
   };
 
+  // 언어 선택 드롭다운
+  const LanguageDropdown = () => (
+    <div className="absolute top-[42px] right-0 w-20 bg-[#ddf4ff] rounded shadow-lg z-10">
+      {Object.values(LANGUAGES).map(lang => (
+        <button
+          key={lang.code}
+          type="button"
+          className={`w-full h-10 flex justify-center items-center hover:bg-[#C0E4F5] ${
+            i18n.language === lang.code ? 'bg-[#C0E4F5]' : ''
+          }`}
+          onClick={() => handleLanguageChange(lang.code)}
+        >
+          {lang.label}
+        </button>
+      ))}
+    </div>
+  );
+
+  // 모바일 언어 선택
+  const MobileLanguageSelector = () => (
+    <div className="flex gap-4 mb-12 justify-center">
+      {Object.values(LANGUAGES).map((lang, index, array) => (
+        <React.Fragment key={lang.code}>
+          <button
+            onClick={() => handleLanguageChange(lang.code)}
+            className={`text-base font-bold ${
+              i18n.language === lang.code ? 'text-gemgem-blue' : 'text-gray-400'
+            }`}
+          >
+            {lang.label}
+          </button>
+          {index < array.length - 1 && <span>|</span>}
+        </React.Fragment>
+      ))}
+    </div>
+  );
+
   const handleStoreNavigation = () => {
     if (isIOS) {
       // iOS App Store 링크를 새 탭에서 열기
       window.open(
-        "https://walla.my/survey/ejueqpRkF9kQt9eA8JU9",
+        "https://walla.my/v/9dSeLph2tplo0m6q0Xtd",
         "_blank"
       );
     } else {
       // Google Play Store 링크를 새 탭에서 열기
       window.open(
-        "https://walla.my/survey/ejueqpRkF9kQt9eA8JU9",
+        "https://walla.my/v/9dSeLph2tplo0m6q0Xtd",
         "_blank"
       );
     }
@@ -89,26 +161,18 @@ const Navbar: React.FC = () => {
 
             {/* 네비게이션 메뉴 (가운데 정렬, PC만 보이기) */}
             <ul className="hidden custom:flex absolute left-1/2 transform -translate-x-1/2 text-gray-700 font-pretendard text-base custom:space-x-6 xl:space-x-8 whitespace-nowrap h-full items-center">
-              {["/", "/gemgem400", "/content", "/for-parents", "/about"].map(
-                (path, index) => (
+              {NAV_ITEMS.map(
+                (item, index) => (
                   <li key={index} className="relative">
                     <Link
-                      to={getLocalizedPath(path)}
+                      to={getLocalizedPath(item.path)}
                       className={`hover:text-gemgem-blue text-[16px] xl:text-base ${
-                        isActive(path) ? "text-gemgem-blue" : ""
+                        isActive(item.path) ? "text-gemgem-blue" : ""
                       }`}
                     >
-                      {
-                        [
-                          "Home",
-                          "GemGem400",
-                          "Content",
-                          "For parents",
-                          "About",
-                        ][index]
-                      }
+                      {t(item.label)}
                     </Link>
-                    {isActive(path) && (
+                    {isActive(item.path) && (
                       <div className="absolute bottom-0 left-0 w-full h-0.5 bg-gemgem-blue -mb-2"></div>
                     )}
                   </li>
@@ -145,20 +209,7 @@ const Navbar: React.FC = () => {
                   </svg>
                 </button>
                 {isLangDropdownOpen && (
-                  <div
-                    className="absolute top-[42px] right-0 w-20 bg-[#ddf4ff] hover:bg-[#C0E4F5] cursor-pointer rounded shadow-lg z-10"
-                  >
-                    <button
-                      type="button"
-                      className="w-full h-10 flex justify-center items-center"
-                      onClick={() => {
-                        handleLanguageChange(i18n.language === "ko" ? "en" : "ko");
-                        setIsLangDropdownOpen(false);
-                      }}
-                    >
-                      {i18n.language === "ko" ? "EN" : "KR"}
-                    </button>
-                  </div>
+                  <LanguageDropdown />
                 )}
               </div>
             </div>
@@ -203,68 +254,22 @@ const Navbar: React.FC = () => {
         </div>
 
         {/* 언어 선택 버튼 */}
-        <div className="flex gap-4 mb-12 justify-center">
-          <button
-            onClick={() => handleLanguageChange("en")}
-            className={`text-base font-bold ${
-              i18n.language === "en" ? "text-gemgem-blue" : "text-gray-400"
-            }`}
-          >
-            EN
-          </button>
-          <span>|</span>
-          <button
-            onClick={() => handleLanguageChange("ko")}
-            className={`text-base font-bold ${
-              i18n.language === "ko" ? "text-gemgem-blue" : "text-gray-400"
-            }`}
-          >
-            KR
-          </button>
-        </div>
+        <MobileLanguageSelector />
 
         {/* 네비게이션 메뉴 */}
         <ul className="flex flex-col gap-6 text-center text-gray-800 font-extrabold text-[18px] mb-auto">
-          <li>
-            <button
-              onClick={() => handleNavigation("/")}
-              className={isActive("/") ? "text-gemgem-blue" : ""}
-            >
-              Home
-            </button>
-          </li>
-          <li>
-            <button
-              onClick={() => handleNavigation("/gemgem400")}
-              className={isActive("/gemgem400") ? "text-gemgem-blue" : ""}
-            >
-              GemGem400
-            </button>
-          </li>
-          <li>
-            <button
-              onClick={() => handleNavigation("/content")}
-              className={isActive("/content") ? "text-gemgem-blue" : ""}
-            >
-              Content
-            </button>
-          </li>
-          <li>
-            <button
-              onClick={() => handleNavigation("/for-parents")}
-              className={isActive("/for-parents") ? "text-gemgem-blue" : ""}
-            >
-              For parents
-            </button>
-          </li>
-          <li>
-            <button
-              onClick={() => handleNavigation("/about")}
-              className={isActive("/about") ? "text-gemgem-blue" : ""}
-            >
-              About
-            </button>
-          </li>
+          {NAV_ITEMS.map(
+            (item, index) => (
+              <li key={index}>
+                <button
+                  onClick={() => handleNavigation(item.path)}
+                  className={isActive(item.path) ? "text-gemgem-blue" : ""}
+                >
+                  {t(item.label)}
+                </button>
+              </li>
+            )
+          )}
         </ul>
 
         {/* 하단 SNS 링크와 버튼 */}
