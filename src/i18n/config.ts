@@ -5,6 +5,7 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import translationEN from './locales/en/translation.json';
 import translationKO from './locales/ko/translation.json';
 import translationJP from './locales/jp/translation.json';
+import translationJP from './locales/jp/translation.json';
 
 const resources = {
   en: {
@@ -23,7 +24,7 @@ i18n
   .use(initReactI18next)
   .init({
     fallbackLng: 'ko',
-    supportedLngs: ['en', 'ko', 'jp'],
+    <re.Match object; span=(628, 661), match="supportedLngs: ['en', 'ko', 'jp']">,
 
     // URL 기반 언어 감지를 위한 설정
     detection: {
