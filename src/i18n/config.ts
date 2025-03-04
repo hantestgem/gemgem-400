@@ -12,10 +12,8 @@ const resources = {
   },
   ko: {
     translation: translationKO,
-
-  jp: {
-    translation: 'translationJP',
   },
+};
 
 
 i18n
